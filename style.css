@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+   margin: 0; 
+   padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #201313; 
+}
+
+.span{
+    margin-right: 8%;
+    padding-right: 8%;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 060;
+    height: 150px;
+    color: white;
+}
+nav{
+    text-align: center;
+    border: 1px solid;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.mnav{
+    padding-right: 40px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15.84px;
+    font-weight: 700;
+    color:#eae6e4;
+    text-decoration: none;
+    
+
+    
+    
+}
+
+.let{
+margin-left: 8% ;
+border: 2px solid #201313;
+background-color: #e03131;
+font-size: 30.84pxpx;
+color: white;
+font-weight: 700;
+font-family: "JetBrains Mono", monospace;
+border-radius: 25px;
+text-decoration-line: none;
+padding: 10px 15px;
+}
+
+nav .mnav:hover{
+    color: #ffc726 ;
+    text-decoration: underline;
+   
+}
+.mnav:hover .caret{
+    text-decoration: none;
+}
+.let:hover{
+    outline: 3px solid  #e03131; 
+}
+.blog{
+    color: #ffc726;
+}
+section{
+    border: 1px solid white;
+    margin: 80px auto 0;
+    min-height: 500px;
+    width: 45%;
+}
+.h1{
+    font-family: sans-serif;
+    font-size: 49.5px;
+    color: #faf9f9;
+}
+.div{
+    color: #faf9f9 ;
+    font-size: 27px;
+    font-family: sans-serif;
+     padding-top: 20px;
+     line-height: 45px;
+    }
+.tb{
+    color:#ffe7a3 ;
+   
+}
+.tb:hover{
+    color:#ffc726 ;
+}
+ .div2{
+    border-top: #7b6e68 2px solid;
+    text-align: center;
+    font-size: 18px;
+    font-family: "JetBrains Mono", monospace;
+    padding-top: 40px;
+    margin-top: 40px;
+    padding: auto;
+
+ }   
+ .at{
+    border: 1px solid;
+    background-color: #ffc726;
+    color:  #201313 ;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 25px;
+
+ }
+ .middle{
+    color: #faf9f9;
+    padding: 10px 15px;
+    border: 1px solid #7b6e68;
+    text-decoration: none;
+     border-radius: 25px;
+ }
+ .middle:hover{
+   background-color: #ffe7a3;
+   color:  #201313 ;
+ }
+ .mt{
+    font-family: sans-serif;
+    line-height: 38.25px;
+    font-size: 22.5px;
+    color: #faf9f9;
+    text-decoration: dotted underline;
+ }
+ .mt:hover{
+    color: #ffc726;
+ }
+ .who{
+    color: #faf9f9;
+    font-size: 31.5px;
+    font-family: sans-serif;
+    letter-spacing: -0.36px;
+    line-height: 36.225px;
+    font-weight: 700;
+    text-decoration: none;
+  
+    
+ }
+ .div3{
+    margin-top: 50px;
+ }
+ .who:hover{
+    color: #ffc726;
+ }
+ .p{
+    color: #faf9f9;
+    font-family: sans-serif;
+    line-height: 30.375px;
+    font-size:20.25px ;
+    margin: 10px;
+    padding-right: 2px;
+ }
