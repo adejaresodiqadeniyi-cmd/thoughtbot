@@ -3,10 +3,13 @@
    margin: 0; 
    padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
    background-color: #201313; 
+   border: #faf9f9 1px solid;
+   min-height: auto;
 }
 
 .span{
@@ -42,7 +45,7 @@ nav{
 margin-left: 8% ;
 border: 2px solid #201313;
 background-color: #e03131;
-font-size: 30.84pxpx;
+font-size: 16px;
 color: white;
 font-weight: 700;
 font-family: "JetBrains Mono", monospace;
@@ -66,9 +69,9 @@ nav .mnav:hover{
     color: #ffc726;
 }
 section{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 80px auto 0;
-    min-height: 500px;
+    min-height: auto;
     width: 45%;
 }
 .h1{
@@ -139,10 +142,7 @@ section{
     font-weight: 700;
     text-decoration: none;
   
-    
- }
- .div3{
-    margin-top: 50px;
+
  }
  .who:hover{
     color: #ffc726;
@@ -152,6 +152,324 @@ section{
     font-family: sans-serif;
     line-height: 30.375px;
     font-size:20.25px ;
-    margin: 10px;
-    padding-right: 2px;
+    margin: 0;
+   width: 100%;
+
  }
+ .div3{
+   margin-top: 50px;
+    color: #faf9f9;
+    font-size: 18PX;
+    line-height: 27px;
+    font-family: sans-serif;
+ }
+ .Ran{
+    color: #ffe7a3;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+ }
+ .div4{
+    color: #faf9f9;
+     font-family: sans-serif;
+     margin-top: 20px;
+ }
+ .Ran:hover{
+    color: #ffc726;
+ }
+ .ASDN{
+    margin-bottom: 30px;
+    color: #faf9f9;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+   
+    
+ }
+ .ASDN:hover{
+color: #ffc726;
+ }
+ .div5{
+    margin-top: 20px;
+ }
+ .div6{
+   /* border: 1px solid white; */
+    padding-top: 15px;
+    width: 683px;
+    margin:100px 0 0;
+    height: 300px;
+    background-color: #2f1c1c;
+    border-radius: 5px;
+ }
+ .h2{
+    margin: 18px 0;
+    font-size: 36px;
+    font-family:sans-serif ;
+    font-weight:700px ;
+    line-height: 46.8px;
+    color: #faf9f9;
+    padding-left: 30px;
+ }
+ .formaction{
+   color: #faf9f9;
+ }
+
+ .Sign-in{
+   width: 90%;
+   margin: auto;
+ }
+
+ .input{
+   border: none ;
+   background-color: #2f1c1c;
+   outline: none;
+   width: 75%;
+   /* border: #faf9f9 1px solid; */
+   border-bottom: #7B6E68 1px solid;
+   
+ }
+ .div7{
+   font-family: monospace;
+   font-size: 18px;
+   padding-left:30px ;
+   height: 80px;
+   
+ }
+
+  .subscribe{
+
+ border: 2px solid #201313;
+  background-color: #e03131; 
+font-size: 16px;
+color: white; 
+font-weight: 700;
+font-family: "JetBrains Mono", monospace;
+border-radius: 28px; 
+text-decoration-line: none; 
+padding: 15px 25px;
+margin-bottom: 20px;
+}
+
+.subscribe:hover{
+    outline: 3px solid  #e03131; 
+    padding-left: 20 px;
+}
+.input:hover{
+   border-color: white;
+}
+.div8{
+   width: 99%;
+   margin: auto;
+   margin-top: 20px;
+   height:100px ;
+   border-bottom: 2px solid #2f1c1c ;
+   
+}
+.span1{
+   color: #eae6e4;
+   /* border: 1px solid white; */
+   font-size: 18px;
+   font-family: sans-serif;
+   padding-left: 30px;
+  
+}
+.Check{
+   display: inline-block;
+   width: 160px;
+   vertical-align: middle;
+   margin-left: 20px;
+   color: #ffe7a3;
+   font-family: "JetBrains Mono", monospace;
+   font-size: 18px;
+   text-decoration: dotted underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 6px;
+   
+}
+.arrow{
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 30px;
+     color: #ffe7a3;
+     font-size: 28px;
+}
+.Check:hover{
+color: #ffc726;
+}
+/* :hover{
+color: #ffc726;
+} */
+.div9{
+   
+   height: 250px;
+   margin-top:90px;
+   margin-bottom: 25px;
+   width: 100%;
+   color: #faf9f9;
+   
+}
+.div10{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none;
+   
+  }
+  .div11{
+   
+   height: 250px;
+   margin-top:15px;
+   margin-bottom: 4px;
+   width: 100%;
+   color: #faf9f9;
+   
+}
+.div12{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none;
+   
+  }
+  .div13{
+   
+   height: 300px;
+   margin-top:40px;
+   margin-bottom: 30px;
+   width: 100%;
+   color: #faf9f9;
+   
+}
+.div14{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+  }
+   .div15 {
+   
+   height: 300px;
+   margin-top:10px ;
+   margin-bottom: 0px;
+   width: 100%;
+   color: #faf9f9;
+   
+}
+.div16{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+  }
+   .div17 {
+   height: 300px;
+   margin:0px auto;
+   margin-bottom: 0px;
+   width: 100%;
+   color: #faf9f9;
+   
+   
+}
+.div18{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+   
+  }
+   .div19{
+   height: 30px;
+   margin:15px auto;
+   margin-bottom: 10px;
+   width: 100%;
+   color: #faf9f9;
+  
+   
+}
+.div20{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+  }
+  .div21{
+   height: 300px;
+   margin:90px auto;
+   margin-bottom: 0px;
+   width: 100%;
+   color: #faf9f9;
+   height: fit-content;
+}
+.div22{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+  }
+   .div23{
+   height: 300px;
+   margin:70px auto;
+   margin-bottom: 10px;
+   width: 100%;
+   color: #faf9f9;
+  
+}
+.div24{
+   font-size: 31.5px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 36.225px;
+   font-weight: 700;
+   color: #faf9f9;
+   text-decoration: none; 
+  }
+
+  .div24:hover{
+   color: #ffc726;
+  }
+  .div22:hover{
+   color: #ffc726;
+  }
+  .div20:hover{
+   color: #ffc726;
+  }
+  .div18:hover{
+   color: #ffc726;
+  }
+  .div16:hover{
+   color: #ffc726;
+  }.div14:hover{
+   color: #ffc726;
+  }
+  .div12:hover{
+   color: #ffc726;
+  }
+  .div10:hover{
+   color: #ffc726;
+  }
+   .div25{
+   height: 300px;
+   margin: auto;
+   /* margin-bottom: 0px; */
+   width: 100%;
+   color: #faf9f9;
+   height: fit-content;
+   text-align: center;
+   font-size: 22.5px;
+   font-family: sans-serif;
+   font-weight: 400;
+   color: #faf9f9;
+   }
